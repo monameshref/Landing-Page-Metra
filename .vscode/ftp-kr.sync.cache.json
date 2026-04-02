@@ -1,0 +1,361 @@
+{
+  "ftp://Metra-landing@frontend.jadara.work@37.187.145.203:21": {
+    "assets": {
+      "images": {
+        "$.png": {
+          "type": "-",
+          "size": 924,
+          "lmtime": 1770741942447.4336,
+          "modified": false
+        },
+        "Qimmah.png": {
+          "type": "-",
+          "size": 23071,
+          "lmtime": 1770741942583.4902,
+          "modified": false
+        },
+        "Tamayuz.png": {
+          "type": "-",
+          "size": 25143,
+          "lmtime": 1770741942634.0884,
+          "modified": false
+        },
+        "Taqqadum.png": {
+          "type": "-",
+          "size": 23863,
+          "lmtime": 1770741942637.36,
+          "modified": false
+        },
+        "banner.png": {
+          "type": "-",
+          "size": 594643,
+          "lmtime": 1774955497638.638,
+          "modified": false
+        },
+        "barq.svg": {
+          "type": "-",
+          "size": 2795611,
+          "lmtime": 1770751500764.7087,
+          "modified": false
+        },
+        "bg-2.svg": {
+          "type": "-",
+          "size": 8918,
+          "lmtime": 1770741942463.1328,
+          "modified": false
+        },
+        "bg-awards.png": {
+          "type": "-",
+          "size": 158221,
+          "lmtime": 1770741942479.2615,
+          "modified": false
+        },
+        "bg-awards.svg": {
+          "type": "-",
+          "size": 158503,
+          "lmtime": 1770741942485.89,
+          "modified": false
+        },
+        "bg-hala-cta.svg": {
+          "type": "-",
+          "size": 6909,
+          "lmtime": 1770741942485.89,
+          "modified": false
+        },
+        "bg.svg": {
+          "type": "-",
+          "size": 8918,
+          "lmtime": 1770741942485.89,
+          "modified": false
+        },
+        "cisco-distributor.svg": {
+          "type": "-",
+          "size": 18306,
+          "lmtime": 1770741942495.0508,
+          "modified": false
+        },
+        "cisco.png": {
+          "type": "-",
+          "size": 1358,
+          "lmtime": 1770741942500.441,
+          "modified": false
+        },
+        "dimension-data.png": {
+          "type": "-",
+          "size": 10366,
+          "lmtime": 1770741942504.4597,
+          "modified": false
+        },
+        "dimension-data.svg": {
+          "type": "-",
+          "size": 80940,
+          "lmtime": 1774955499977.6172,
+          "modified": false
+        },
+        "footer-logo.svg": {
+          "type": "-",
+          "size": 65734,
+          "lmtime": 1770741942510.7146,
+          "modified": false
+        },
+        "hala-metra.svg": {
+          "type": "-",
+          "size": 5073,
+          "lmtime": 1770741942510.7146,
+          "modified": false
+        },
+        "ic_baseline-email.png": {
+          "type": "-",
+          "size": 701,
+          "lmtime": 1770741942521.237,
+          "modified": false
+        },
+        "ic_baseline-email.svg": {
+          "type": "-",
+          "size": 1571,
+          "lmtime": 1775032663101.49,
+          "modified": false
+        },
+        "ic_baseline-phone.png": {
+          "type": "-",
+          "size": 735,
+          "lmtime": 1770741942521.237,
+          "modified": false
+        },
+        "ic_baseline-phone.svg": {
+          "type": "-",
+          "size": 1567,
+          "lmtime": 1775032604708.817,
+          "modified": false
+        },
+        "learning.png": {
+          "type": "-",
+          "size": 576,
+          "lmtime": 1770741942528.8645,
+          "modified": false
+        },
+        "level-advanced.svg": {
+          "type": "-",
+          "size": 27558,
+          "lmtime": 1770741942528.8645,
+          "modified": false
+        },
+        "level-excellence.svg": {
+          "type": "-",
+          "size": 37499,
+          "lmtime": 1770741942528.8645,
+          "modified": false
+        },
+        "level-top.svg": {
+          "type": "-",
+          "size": 34994,
+          "lmtime": 1770741942528.8645,
+          "modified": false
+        },
+        "logo-card.png": {
+          "type": "-",
+          "size": 1279,
+          "lmtime": 1770741942544.5906,
+          "modified": false
+        },
+        "logo-card.svg": {
+          "type": "-",
+          "size": 11127,
+          "lmtime": 1770741942544.5906,
+          "modified": false
+        },
+        "logo-hala-gate-2.svg": {
+          "type": "-",
+          "size": 6461,
+          "lmtime": 1770741942544.5906,
+          "modified": false
+        },
+        "logo-hala-gate-3.svg": {
+          "type": "-",
+          "size": 7057,
+          "lmtime": 1775035299809.0886,
+          "modified": false
+        },
+        "logo-hala-gate.svg": {
+          "type": "-",
+          "size": 7153,
+          "lmtime": 1770741942544.5906,
+          "modified": false
+        },
+        "logo-metra-white.svg": {
+          "type": "-",
+          "size": 5466,
+          "lmtime": 1775041334559.8567,
+          "modified": false
+        },
+        "logo-metra.svg": {
+          "type": "-",
+          "size": 5244,
+          "lmtime": 1770741942560.257,
+          "modified": false
+        },
+        "metra-cisco(white).svg": {
+          "type": "-",
+          "size": 22495,
+          "lmtime": 1775041298171.417,
+          "modified": false
+        },
+        "metra-cisco.svg": {
+          "type": "-",
+          "size": 33117,
+          "lmtime": 1775041153635.0388,
+          "modified": false
+        },
+        "micrphone.png": {
+          "type": "-",
+          "size": 882,
+          "lmtime": 1770741942574.388,
+          "modified": false
+        },
+        "mingcute_location-fill.png": {
+          "type": "-",
+          "size": 970,
+          "lmtime": 1770741942579.939,
+          "modified": false
+        },
+        "mingcute_location-fill.svg": {
+          "type": "-",
+          "size": 3144,
+          "lmtime": 1775032538442.2114,
+          "modified": false
+        },
+        "person.png": {
+          "type": "-",
+          "size": 498,
+          "lmtime": 1770741942583.4902,
+          "modified": false
+        },
+        "royal-circle.png": {
+          "type": "-",
+          "size": 4474,
+          "lmtime": 1770741942590.1064,
+          "modified": false
+        },
+        "royal-icon.svg": {
+          "type": "-",
+          "size": 10992,
+          "lmtime": 1775030991290.9795,
+          "modified": false
+        },
+        "sponser1.png": {
+          "type": "-",
+          "size": 11225,
+          "lmtime": 1770741942590.1064,
+          "modified": false
+        },
+        "sponser2.png": {
+          "type": "-",
+          "size": 8869,
+          "lmtime": 1770741942590.1064,
+          "modified": false
+        },
+        "sponser3.png": {
+          "type": "-",
+          "size": 10661,
+          "lmtime": 1770741942590.1064,
+          "modified": false
+        },
+        "sponser3.svg": {
+          "type": "-",
+          "size": 255987,
+          "lmtime": 1770741942605.915,
+          "modified": false
+        },
+        "sponser4.png": {
+          "type": "-",
+          "size": 11423,
+          "lmtime": 1770741942605.915,
+          "modified": false
+        },
+        "sponser5.png": {
+          "type": "-",
+          "size": 4253,
+          "lmtime": 1770741942605.915,
+          "modified": false
+        },
+        "sponser6.png": {
+          "type": "-",
+          "size": 10692,
+          "lmtime": 1770741942605.915,
+          "modified": false
+        },
+        "sponser7.png": {
+          "type": "-",
+          "size": 5765,
+          "lmtime": 1770741942621.59,
+          "modified": false
+        },
+        "star.png": {
+          "type": "-",
+          "size": 1030,
+          "lmtime": 1770741942621.59,
+          "modified": false
+        },
+        "star.svg": {
+          "type": "-",
+          "size": 2728,
+          "lmtime": 1770741942621.59,
+          "modified": false
+        },
+        "team-incentive.png": {
+          "type": "-",
+          "size": 780,
+          "lmtime": 1770741942637.36,
+          "modified": false
+        }
+      }
+    },
+    "css": {
+      "footer.css": {
+        "type": "-",
+        "size": 4704,
+        "lmtime": 1774963829331.8894,
+        "modified": true
+      },
+      "general.css": {
+        "type": "-",
+        "size": 2207,
+        "lmtime": 1774956047006.416,
+        "modified": false
+      },
+      "main.css": {
+        "type": "-",
+        "size": 18172,
+        "lmtime": 1775044663861.917,
+        "modified": false
+      },
+      "navbar.css": {
+        "type": "-",
+        "size": 5177,
+        "lmtime": 1775039558112.6309,
+        "modified": false
+      },
+      "responsive.css": {
+        "type": "-",
+        "size": 1218,
+        "lmtime": 1774962697349.1016,
+        "modified": false
+      }
+    },
+    "index.html": {
+      "type": "-",
+      "size": 38014,
+      "lmtime": 1775045084080.9287,
+      "modified": false
+    },
+    "js": {
+      "index.js": {
+        "type": "-",
+        "size": 2651,
+        "lmtime": 1775044692258.7737,
+        "modified": false
+      }
+    }
+  },
+  "$version": 1
+}

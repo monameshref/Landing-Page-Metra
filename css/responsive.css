@@ -1,0 +1,73 @@
+@media (max-width: 991px) {
+    header#home {
+        min-height: auto;
+    }
+    #home .caption {
+        width: 90%;
+    }
+    .info-box {
+        justify-content: start;
+    }
+    .card-item {
+        width: calc(100% / 2 - 20px);
+    }
+    #tiers {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards .row>.col-md-4 {
+        margin-top: 100px;
+    }
+    /* #home .image-banner .image {
+        height: 200px;
+    } */
+    .benfits .box {
+        height: 100%;
+    }
+    .cards {
+        margin-top: 0;
+    }
+    .cta-btn {
+        margin-top: 0;
+    }
+    .support-form .main-btn {
+        padding: 8px 20px !important;
+        font-size: clamp(13px, 2vw, 20px);
+    }
+
+    .card-item {
+        width: calc(100% / 1 - 20px);
+    }
+    section.space {
+        padding: 90px 0;
+    }
+        .award-card {
+            width: 100%;
+        }
+}
+
+@media (max-width: 576px) {
+    .hero .caption p {
+        width: 100%;
+    }
+    .cards .row {
+        width: 100%;
+    }
+    .features {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 50%;
+        margin-inline: auto;
+    }
+}
+@media (max-width: 475px) {
+    .hala-cta h2 {
+        font-size: 20px;
+    }
+    .features {
+        width: 65%;
+    }
+}

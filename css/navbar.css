@@ -1,0 +1,252 @@
+nav .top-nav {
+    background-color: var(--main-color);
+    height: 65px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+}
+.top-nav .my-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.brand-info h4 {
+    background: linear-gradient(to right, #CFB62E, #67BF92, #15C5E2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav .bottom-nav {
+    height: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: .5s;
+}
+nav .bottom-nav .my-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+nav .logo-cisco {
+    width: 160px;
+    height: 45px;
+}
+nav .logo-cisco img {
+    object-fit: contain;
+}
+nav .logo {
+    width: clamp(50px, 15vw, 110px);
+    height: 65px;
+}
+nav .bottom-nav ul.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: rgba(17, 17, 73, 1);
+}
+ul.links li a {
+    font-size: 16px;
+    font-weight: 100;
+    padding: 8px 15px;
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+/* ul.links li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: var(--main-color);
+    transition: width 0.3s ease;
+} */
+/* nav.responsive ul.links li a::before {
+    background-color: var(--white-color);
+} */
+/* ul.links li a:hover::before {
+    width: 80%;
+} */
+
+ul.links li:hover a,
+ul.links li.active a {
+    background-color: rgba(54, 28, 126, 0.08);
+}
+nav .bottom-nav .menu-btn {
+    background-color: transparent;
+    color: var(--main-color);
+    font-size: 20px;
+    display: none;
+}
+
+/* Responsive */
+nav.responsive {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: var(--main-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 40px;
+    color: var(--white-color);
+    transition: 0.5s;
+    z-index: 100;
+}
+nav.responsive ul.links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+nav.responsive ul.links li.active a {
+    background-color: rgb(211 195 255 / 17%);
+}
+nav.responsive ul.links li a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+}
+nav.responsive .close-icon {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: var(--white-color);
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    font-size: 20px;
+}
+nav.responsive .close-icon:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: rotate(90deg);
+}
+nav.responsive .main-btn {
+    width: 145px;
+    justify-content: center;
+    gap: 10px;
+}
+nav.responsive.active {
+    right: 0;
+}
+nav.responsive .logo-cisco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-block: 50px;
+}
+nav.responsive .brand-info {
+    flex-direction: column;
+}
+nav.responsive .header-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.overlay {
+    background-color: #0000002c;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    inset: 0;
+    left: -100%;
+    transition: .5s;
+    z-index: 90;
+}
+.overlay.show {
+    left: 0;
+}
+
+/* Sticky Navbar */
+.bottom-nav.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 70;
+    animation: slideDown 0.4s ease;
+    border-bottom: 1px solid var(--main-color);
+    box-shadow: 0px 0px 11px #00000033;
+}
+.bottom-nav.sticky {
+    background-color: var(--white-color);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+nav .bottom-nav .main-btn {
+        display: none;
+    }
+/*! ================== Media Query ================== */
+@media (max-width: 991px) {
+    nav .top-nav {
+        display: none;
+    }
+    nav .bottom-nav ul.links {
+        display: none;
+    }
+    nav .bottom-nav .logo-cisco {
+        display: none;
+    }
+    nav .bottom-nav .menu-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav .bottom-nav .main-btn {
+        display: flex;
+    }
+    /* nav .bottom-nav {
+        border-bottom: 1px solid var(--main-color);
+        box-shadow: 0px 0px 11px #00000033;
+    } */
+}
+@media (max-height: 600px) {
+    nav.responsive {
+        padding-block: 20px;
+    }
+    nav.responsive .logo-cisco {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 768px) {
+    nav.responsive ul.links {
+        gap: 15px;
+    }
+    nav.responsive {
+        justify-content: space-evenly;
+    }
+}
